@@ -41,11 +41,15 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
     </dependency>
-    <!-- Hibernate ORM specific dependencies -->
     <dependency>
       <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-hibernate-orm</artifactId>
+      <artifactId>quarkus-spring-data-jpa</artifactId>
     </dependency>
+    <!-- Hibernate ORM specific dependencies -->
+<!--    <dependency>-->
+<!--      <groupId>io.quarkus</groupId>-->
+<!--      <artifactId>quarkus-hibernate-orm</artifactId>-->
+<!--    </dependency>-->
 
     <!-- JDBC driver dependencies -->
     <dependency>
